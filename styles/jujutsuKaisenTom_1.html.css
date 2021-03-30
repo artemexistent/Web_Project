@@ -1,0 +1,109 @@
+.central {
+    position: absolute;
+    text-align: left;
+    padding: 0 2% 2%;
+    background: #A9BF7A;
+    left: -2%;
+    top: 15%;
+    width: 75%;
+    height: 110%;
+    font-weight: bold;
+}
+.aboutProduct {
+    position: absolute;
+    text-align: left;
+    padding: 0 2% 2%;
+    background: #A9BF7A;
+    left: 1%;
+    top: 45%;
+    width: 75%;
+    height: 50%;
+}
+.rightCenter {
+    display: grid;
+    right: 5%;
+    top: 3%;
+    width: 25%;
+    height: 45%;
+    padding-top: 5%;
+    position: absolute;
+    background: #A9BF7A;
+}
+.rightCenterBlocks {
+    padding-top:3%;
+    padding-bottom:3%;
+    border-top: 1px solid black;
+}
+.available {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    border: #A9BF7A solid;
+    border-radius: 10%;
+    width: 50%;
+}
+.priceProduct {
+    position: absolute;
+    top: 105%;
+    left: 0;
+    background: #A9BF7A;
+    width: 40%;
+    height: 6%;
+    font-size: 2vm;
+    text-align: center;
+    border: #A9BF7A solid;
+    border-radius: 50%;
+}
+.buy {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    background: #A9BF7A;
+    width: 50%;
+    height: 10%;
+    font-size: 2vm;
+    text-align: center;
+    border: #A9BF7A solid;
+    border-radius: 10%;
+}
+.i_shopping_cart {
+    content: "\e046";
+}
+.rightDelivery {
+    background: darkolivegreen;
+    right: -5%;
+    top: 1%;
+    width: 21%;
+    height: 45%;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: absolute;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(6, 14%);
+    grid-column-gap: 3%;
+    grid-row-gap: 2%;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+.wayDelivery {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    color: #F2F3F2;
+}
+.similarProducts {
+    position: absolute;
+    left: 10%;
+    bottom: -100%;
+    width: 80%;
+    padding: 10px;
+    text-align: left;
+    /*background-color: #5A7362;*/
+    height: 25%;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-column-gap: 1%;
+}
