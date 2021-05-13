@@ -5,6 +5,9 @@
     <title>Green Apple</title>
     <link rel="stylesheet" href="../../styles/main.css">
     <link rel="stylesheet" href="../../styles/base.css">
+    <script src="../../scripts/base.js"></script>
+    <script src="../../scripts/buy.js"></script>
+
 </head>
 <body>
 
@@ -18,7 +21,9 @@
                 +38 (099) 55-68-172<br>
                 +38 (099) 55-68-172
             </h3>
-            <a href="index.html">Обратная связь</a>
+            <a onclick="clickFeedback()">Обратная связь</a>
+            <br>
+            <a onclick="get()">Корзина</a>
         </div>
 
     </header>
@@ -29,7 +34,7 @@
             Каталог  |
             Доставка и оплата  |
             Прайс-лист  |
-            <a href="aboutShop.html">О магазине</a> </h2>
+            <a href="aboutShop.html"> О магазине </a> </h2>
     </div>
 
     <div class="slider">
@@ -110,27 +115,13 @@
 
 
 
-    <!--<div class="feedback">
-        <h2 style="margin-top: -15%">ОБРАТНАЯ СВЯЗЬ</h2>
-        Ваше имя *<br>
-        <input type="text" name="name" required >
-        <br>
-        <br>
-        Телефон *
-        <br>
-        <input type="text" name="number" required>
-        <br>
-        <br>
-        Email *<br>
-        <input type="text" name="email" required >
-        <br>
-        <br>
-        Сообщение<br>
-        <textarea name="message" cols="30" rows="5" ></textarea>
-        <br>
-        <br>
-        <input type="submit" name="send">
-    </div>-->
+    <div id="feedback">
 
+    </div>
+
+
+    <div id="korzina">
+
+    </div>
 </body>
 </html>

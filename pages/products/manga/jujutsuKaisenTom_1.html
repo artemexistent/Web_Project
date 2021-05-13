@@ -5,6 +5,8 @@
     <title>Green Apple</title>
     <link rel="stylesheet" href="../../../styles/jujutsuKaisenTom_1.html.css">
     <link rel="stylesheet" href="../../../styles/base.css">
+    <script src="../../../scripts/base.js"></script>
+    <script src="../../../scripts/buy.js"></script>
 </head>
 <body>
 
@@ -18,7 +20,9 @@
             +38 (099) 55-68-172<br>
             +38 (099) 55-68-172
         </h3>
-        <a href="../../base/index.html">Обратная связь</a>
+        <a onclick="clickFeedback()">Обратная связь</a>
+        <br>
+        <a onclick="get()">Корзина</a>
     </div>
 
 </header>
@@ -81,7 +85,7 @@
                 Количество на скаде: 28 <br>
                 Срок поставки: Доставка по Украине. Товар будет доставлен в течении 1-3 дней<br>
                 <div class="priceProduct" style="background: #FFA33F">120.00 грн</div>
-                <button class="buy" style="background: #F2EC94"><i class="i_shopping_cart"></i> <h3 style="margin-top: 8%">Купить</h3> </button>
+                <button class="buy" style="background: #F2EC94" onclick='add("Манга «Магическая битва» [Jujutsu Kaisen] том 1", 120)'><i class="i_shopping_cart"></i> <h3 style="margin-top: 8%">Купить</h3> </button>
             </div>
         </h5>
         </div>
@@ -156,6 +160,14 @@
         компания "Green Man"
     </div>
 </footer>
+<div id="feedback">
+
+</div>
+
+<div id="korzina">
+
+</div>
+
 
 
 </body>
