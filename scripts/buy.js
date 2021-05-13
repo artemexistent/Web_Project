@@ -3,10 +3,16 @@ var product = {
 }
 
 
+function clear() {
+    document.getElementById('korzina').innerHTML = " ";
+}
 var t = "    <p class=\"BUY\" id=\"text1\">" +
     "    </p>"
 
-var r = "<br><br><button style='width: 30%' id='click' onclick='alert(\"Ждите, с вами свяжется менеджер для подтверждения заказа\")'>Оформить заказ</button>"
+var r = "<br><br><button style='width: 30%' id='click' onclick='alert(\"Ждите, с вами свяжется менеджер для подтверждения заказа\"); clear()'>Оформить заказ</button>"
+
+var l = "<br><br><button style='width: 30%' onclick='clear()'>Exit</button>"
+
 
 function add(name, cost) {
     if (name in product) {
@@ -26,7 +32,7 @@ function get() {
         }
     }
     if (result == " ") {
-        result = "Ваша корзина пуста"
+        result = "Ваша корзина пуста" + l;
     } else {
         result += "<br><br><br> Сумма всего заказа состовляет:   " + all;
         result += r;
