@@ -14,39 +14,39 @@ A:hover {
 
 header {
     position: absolute;
-    width: 100%;
+    width: 1440px;
     padding: 10px;
     text-align: center;
     left: 0;
     top: 0;
     background-color: #D0D9B0;
-    height: 18%;
+    height: 148px;
 }
 .leftDivHeader {
     position: absolute;
-    width: 50%;
-    margin-right: 5%;
+    width: 720px;
+    margin-right: 72px;
     text-align: justify;
-    left: 10%;
+    left: 144px;
     top: 0;
 }
 
 .rightDivHeader {
     position: absolute;
     text-align: right;
-    width: 33%;
-    left: 50%;
+    width: 475px;
+    left: 720px;
     top: 0;
 }
 .menu {
     position: absolute;
-    width: 100%;
-    padding: 1%;
+    width: 1440px;
+    padding: 8px;
     text-align: center;
     left: 0;
-    top: 15%;
+    top: 123px;
     background-color: #8AA686;
-    height: 4%;
+    height: 33px;
 }
 .menu a {
     text-decoration: none;
@@ -57,19 +57,19 @@ header {
 }
 main {
     position: absolute;
-    width: 80%;
-    padding: 1%;
+    width: 1152px;
+    padding: 8px;
     text-align: center;
-    left: 10%;
-    top: 53%;
-    height: 90%;
+    left: 144px;
+    top: 435px;
+    height: 738px;
 }
 .slider {
     position: absolute;
-    width: 100%;
-    height: 30%;
+    width: 1440px;
+    height: 246px;
     left: 0;
-    top: 22%;
+    top: 172px;
 }
 .content {
     width: 100%;
@@ -180,12 +180,12 @@ main {
 footer {
     position: absolute;
     left: 0;
-    bottom: -130%;
-    width: 100%;
+    top: 1800px;
+    width: 1440px;
     padding: 10px;
     text-align: left;
     background-color: #5A7362;
-    height: 25%;
+    height: 205px;
 }
 footer a {
     text-decoration: none;

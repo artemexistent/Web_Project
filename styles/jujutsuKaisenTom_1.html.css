@@ -96,13 +96,13 @@
 }
 .similarProducts {
     position: absolute;
-    left: 10%;
-    bottom: -100%;
-    width: 80%;
+    left: 144px;
+    top: 1440px;
+    width: 1152px;
     padding: 10px;
     text-align: left;
     /*background-color: #5A7362;*/
-    height: 25%;
+    height: 205px;
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-column-gap: 1%;
